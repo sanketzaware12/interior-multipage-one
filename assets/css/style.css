@@ -24,6 +24,7 @@ p{margin:0 0 1rem;color:var(--grey)}em{color:var(--gold);font-style:italic}
 .nav-link:hover::after,.nav-link.active::after{transform:scaleX(1);transform-origin:left}
 .navbar-toggler{border:0;box-shadow:none!important;color:#fff;font-size:1.3rem}
 .site-header.solid .navbar-toggler,.site-header.light .navbar-toggler{color:var(--char)}
+.navbar-toggler[aria-expanded="true"] .fa-bars::before{content:"\f00d"}
 @media(max-width:991px){.navbar-collapse{background:var(--ivory);margin:.7rem -.5rem 0;padding:1rem 1.25rem;border-radius:6px;box-shadow:0 12px 30px rgba(0,0,0,.12)}
 .site-header .navbar-collapse .nav-link{color:var(--char)!important}.navbar-nav{gap:.3rem}}
 .btn-a{display:inline-flex;align-items:center;gap:.7rem;padding:.8rem 1.5rem;border:1px solid var(--gold);background:var(--gold);color:#fff;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;transition:background .35s,color .35s;cursor:pointer}
